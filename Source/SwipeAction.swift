@@ -83,6 +83,9 @@ public class SwipeAction: NSObject {
     ///
     /// - note: When set to `true`, the actions menu is automatically hidden when the action is selected. The default value is `false`.
     public var hidesWhenSelected = false
+
+    /// Custom view that will show in the action button
+    public var customView: UIView?
     
     /**
      Constructs a new `SwipeAction` instance.

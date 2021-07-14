@@ -141,7 +141,9 @@ extension MailCollectionViewController: SwipeCollectionViewCellDelegate {
             let flag = SwipeAction(style: .default, title: nil, handler: nil)
             flag.hidesWhenSelected = true
             configure(action: flag, with: .flag)
-            
+            let custom = SwipeAction(style: .default, title: nil, handler: nil)
+            let customView = CustomViewAction()
+            custom.customView = customView
             let delete = SwipeAction(style: .destructive, title: nil) { action, indexPath in
                 self.emails.remove(at: indexPath.row)
             }
@@ -161,7 +163,7 @@ extension MailCollectionViewController: SwipeCollectionViewCellDelegate {
             }
             configure(action: more, with: .more)
             
-            return [delete, flag, more]
+            return [delete, flag, custom, more]
         }
     }
     
