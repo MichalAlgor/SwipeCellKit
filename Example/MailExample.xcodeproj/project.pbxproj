@@ -15,6 +15,7 @@
 		3F234B0F1E44AC2600E22A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F234B091E44AC2600E22A38 /* Assets.xcassets */; };
 		3F234B171E44B29B00E22A38 /* SwipeCellKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F234B031E44AB7A00E22A38 /* SwipeCellKit.framework */; };
 		3F234B181E44B29B00E22A38 /* SwipeCellKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F234B031E44AB7A00E22A38 /* SwipeCellKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B5CFD439269EFF55009F5BA8 /* CustomViewAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CFD438269EFF55009F5BA8 /* CustomViewAction.swift */; };
 		B93ECA9D1EDEF1EA00AE05AD /* MailCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93ECA9C1EDEF1EA00AE05AD /* MailCollectionViewController.swift */; };
 		B93ECA9F1EDEF56300AE05AD /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93ECA9E1EDEF56300AE05AD /* Shared.swift */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		3F234B071E44AC2600E22A38 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3F234B081E44AC2600E22A38 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F234B091E44AC2600E22A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5CFD438269EFF55009F5BA8 /* CustomViewAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewAction.swift; sourceTree = "<group>"; };
 		B93ECA9C1EDEF1EA00AE05AD /* MailCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailCollectionViewController.swift; sourceTree = "<group>"; };
 		B93ECA9E1EDEF56300AE05AD /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +104,7 @@
 				B93ECA9E1EDEF56300AE05AD /* Shared.swift */,
 				3F234B061E44AC2600E22A38 /* Data.swift */,
 				3F234B101E44AC3400E22A38 /* Supporting Files */,
+				B5CFD438269EFF55009F5BA8 /* CustomViewAction.swift */,
 			);
 			name = Source;
 			path = MailExample;
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B93ECA9F1EDEF56300AE05AD /* Shared.swift in Sources */,
+				B5CFD439269EFF55009F5BA8 /* CustomViewAction.swift in Sources */,
 				3F234B0A1E44AC2600E22A38 /* AppDelegate.swift in Sources */,
 				3F234B0C1E44AC2600E22A38 /* Data.swift in Sources */,
 				3F234B0B1E44AC2600E22A38 /* MailTableViewController.swift in Sources */,
